@@ -10,12 +10,16 @@ a {
      transition: all 0.2s ease-in-out;
 }
 /* Header */
- header {
-     background: #4169e1;
+header {
+     background-color: #004f9e; /*#007ee6; /*#1C69CE;*
     /* Royal blue */
      color: #fff;
      padding: 2rem;
      text-align: center;
+}
+main h3 {
+    text-align: center;
+    color: #1e3a8a;
 }
  header h1 {
      margin: 0;
@@ -26,8 +30,12 @@ a {
      font-size: 1rem;
 }
  header a {
-     color: skyblue;
+     color: #afe6fb;
     /* Magenta accent for email */
+
+}
+header a:hover {
+    text-decoration: underline;
 }
 /* Main container */
  main {
@@ -38,7 +46,7 @@ a {
  h2.section-title {
      font-size: 1.8rem;
      margin-bottom: 1rem;
-     color: #1e3a8a;
+     color: #1e3a8a; /*#0058a1;  */
      text-align:  center;
 }
 /* Cards */
@@ -49,13 +57,15 @@ a {
      margin-bottom: 1.5rem;
      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
- a.project-link {
+ a.project-link,
+ main p a {
      font-weight: bold;
-     color: #1e90ff;
+     color: #0073e6;/*#1e90ff;*/
     /* Sky blue */
      font-size: 1.2rem;
 }
- a.project-link:hover {
+ a.project-link:hover,
+ main p a:hover {
      color: #ff00ff;
     /* Magenta accent on hover */
      text-decoration: underline;
