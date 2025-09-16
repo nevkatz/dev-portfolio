@@ -49,6 +49,7 @@ header a:hover {
      color: #1e3a8a; /*#0058a1;  */
      text-align:  center;
 }
+
 /* Cards */
  .project-card {
      background: #fff;
@@ -79,6 +80,12 @@ header a:hover {
      text-align: center;
      padding: 1.5rem;
      font-size: 0.9rem;
-     color: #6b7280;
+     background-color: #1e3a8a;
+    color: #FFF;
 }
- 
+footer p:first-child {
+    margin-top: 0rem;
+}
+footer p:last-child {
+    margin-bottom: 0rem;
+}
