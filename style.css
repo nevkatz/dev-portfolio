@@ -58,12 +58,15 @@ header a:hover {
      margin-bottom: 1.5rem;
      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
+a.project-link {
+    font-size: 1.2rem;
+     font-weight: bold;
+}
  a.project-link,
  main p a {
-     font-weight: bold;
      color: #0073e6;/*#1e90ff;*/
     /* Sky blue */
-     font-size: 1.2rem;
+     
 }
  a.project-link:hover,
  main p a:hover {
